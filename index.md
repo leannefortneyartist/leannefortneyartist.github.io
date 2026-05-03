@@ -34,7 +34,7 @@ The Delaplaine Arts Center, Frederick, Maryland
 
   <div>
     <a href="/art/">
-      <img src="/images/pearlsandwhisky.png" alt="Art" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
+      <img src="/images/pearlsandwhiskey.png" alt="Art" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
       <p style="margin-top: 0.5rem; font-weight: bold;">Art</p>
     </a>
     <p>Original artwork available for purchase and commission.</p>
