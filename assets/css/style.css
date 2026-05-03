@@ -59,3 +59,15 @@ main img.hero {
   width: 100%;
   max-width: 400px;
   border-radius: 4px
+
+footer .copy {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: #b0a49a;
+  margin-top: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
