@@ -1,7 +1,8 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
-
+title: 'Leanne Fortney'
+email: 'leannefortneyartist@gmail.com'
+description: 'Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.'
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
@@ -9,17 +10,18 @@ logo:
   desktop: "images/logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "120px"
-
+social:
+  facebook: 'https://www.facebook.com/ArtistLeanneFortney'
+  instagram: 'https://www.instagram.com/leannefortney_art'
+  tiktok: 'https://www.tiktok.com/@leannefortney'
 home: 
   limit_services: 6
-
 collections:
   services:
     output: true
     sort_by: weight
   team:
     output: true
-
 defaults:
   - scope:
       path: ""
@@ -31,13 +33,10 @@ defaults:
       type: "team"
     values:
       layout: "team"
-
 sass:
-  style: compressed # possible values: nested expanded compact compressed
-
+  style: compressed
 plugins:
   - jekyll-environment-variables
-
 exclude:
   - Gemfile
   - Gemfile.lock
