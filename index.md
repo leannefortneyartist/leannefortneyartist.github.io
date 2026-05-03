@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Welcome"
+title: "Hello"
 ---
 
 I'm Leanne Fortney — artist and innovation facilitator helping creative individuals and teams reconnect with their voice, overcome blocks, and find their natural creative flow.
@@ -28,7 +28,6 @@ May 2 – July 12, 2026<br>
 The Delaplaine Arts Center, Frederick, Maryland
 </p>
 
-
 ---
 
 ## Explore
@@ -36,27 +35,21 @@ The Delaplaine Arts Center, Frederick, Maryland
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; text-align: center; margin-top: 1rem;">
 
   <div>
-    <a href="/art/">
-      <img src="/images/pearlsandwhiskey.png" alt="Art" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
-      <p style="margin-top: 0.5rem; font-weight: bold;">Art</p>
-    </a>
-    <p>Original artwork available for purchase and commission.</p>
+    <img src="/images/pearlsandwhisky.png" alt="Art" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
+    <p style="margin-top: 0.5rem; font-weight: bold; font-size: 0.85em;">Art</p>
+    <p style="font-size: 0.85em;">Original artwork available for purchase and commission.</p>
   </div>
 
   <div>
-    <a href="/prints/">
-      <img src="/images/prints.png" alt="Prints" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
-      <p style="margin-top: 0.5rem; font-weight: bold;">Prints</p>
-    </a>
-    <p>Affordable prints of original artwork for your home or office.</p>
+    <img src="/images/prints.png" alt="Prints" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
+    <p style="margin-top: 0.5rem; font-weight: bold; font-size: 0.85em;">Prints</p>
+    <p style="font-size: 0.85em;">Affordable prints of original artwork for your home or office.</p>
   </div>
 
   <div>
-    <a href="/innovative-facilitation/">
-      <img src="/images/creativeflow.png" alt="Innovative Facilitation" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
-      <p style="margin-top: 0.5rem; font-weight: bold;">Innovative Facilitation</p>
-    </a>
-    <p>Supporting individuals and teams in transforming challenges into fresh ideas.</p>
+    <img src="/images/creativeflow.png" alt="Innovative Facilitation" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px;"/>
+    <p style="margin-top: 0.5rem; font-weight: bold; font-size: 0.85em;">Innovative Facilitation</p>
+    <p style="font-size: 0.85em;">Supporting individuals and teams in transforming challenges into fresh ideas.</p>
   </div>
 
 </div>
