@@ -6,7 +6,7 @@ weight: 1
 
 Original artwork by Leanne Fortney, exploring color, emotion, and the natural creative flow. Each piece is a unique expression of the world through an artist's eye.
 
-![Leanne Fortney Art](/images/pearlswhiskey.png)
+![Leanne Fortney Art](/images/pearlsandwhiskey.png)
 
 # Original Artwork
 
