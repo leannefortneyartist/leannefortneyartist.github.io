@@ -58,7 +58,27 @@ main {
 main img.hero {
   width: 100%;
   max-width: 400px;
-  border-radius: 4px
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+main p.bio {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6b5f57;
+  max-width: 500px;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* FOOTER */
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e0d9d3;
+  padding: 2rem;
+  text-align: center;
+}
 
 footer .copy {
   font-family: 'Open Sans', sans-serif;
