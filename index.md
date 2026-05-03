@@ -1,12 +1,12 @@
 ---
 title: Leanne Fortney
 layout: home
-description: Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.
+description: Artist & Innovation Facilitator, Leanne Fortney, supports individuals and teams in overcoming stuck thinking, activating new perspectives, and turning ideas into meaningful, real-world solutions.
 intro_image: "Duoface.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 show_call_box: true
 ---
-# Artist & Creative Arts Coach
+# Artist & Innovation Facilitator
 
-Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.
+Artist & Innovation Facilitator, Leanne Fortney, supports individuals and teams in overcoming stuck thinking, activating new perspectives, and turning ideas into meaningful, real-world solutions.
