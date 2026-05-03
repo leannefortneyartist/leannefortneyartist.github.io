@@ -4,12 +4,12 @@ title: 'Leanne Fortney'
 email: 'leannefortneyartist@gmail.com'
 description: 'Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.'
 logo:
-  mobile: "logo.png"
+  mobile: "images/logo/logo.png"
   mobile_height: "40px"
   mobile_width: "120px"
-  desktop: "logo.png"
+  desktop: "images/logo/logo.png"
   desktop_height: "40px"
-  desktop_width: "200px"
+  desktop_width: "160px"
 social:
   facebook: 'https://www.facebook.com/ArtistLeanneFortney'
   instagram: 'https://www.instagram.com/leannefortney_art'
