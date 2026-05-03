@@ -1,0 +1,11 @@
+main:
+  - title: "Art"
+    url: /art/
+  - title: "Prints"
+    url: /prints/
+  - title: "Innovative Facilitation"
+    url: /innovative-facilitation/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
