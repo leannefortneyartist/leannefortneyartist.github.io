@@ -19,5 +19,6 @@ author:
   facebook: "ArtistLeanneFortney"
   links:
     - label: "TikTok"
-      icon: "fab fa-tiktok"
+      icon: "fab fa-fw fa-tiktok"
       url: "https://www.tiktok.com/@leannefortney"
+      title: "TikTok"
