@@ -1,2 +1,27 @@
+remote_theme: mmistakes/minimal-mistakes
 title: "Leanne Fortney"
-description: "Artist & Creative Arts Coach"
+email: leannefortneyartist@gmail.com
+description: "Artist & Innovation Facilitator, Leanne Fortney, supports individuals and teams in overcoming stuck thinking, activating new perspectives, and turning ideas into meaningful, real-world solutions."
+url: "https://leannefortney.com"
+
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+author:
+  name: "Leanne Fortney"
+  avatar: "/images/duoface.png"
+  bio: "Artist & Innovation Facilitator supporting individuals and teams in transforming challenges into fresh ideas and real-world solutions."
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/leannefortney_art"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/ArtistLeanneFortney"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://www.tiktok.com/@leannefortney"
