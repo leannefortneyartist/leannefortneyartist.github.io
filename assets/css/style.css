@@ -36,14 +36,14 @@ nav a {
   font-size: 0.85rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #8a7d72;
+  color: #3a3530;
   text-decoration: none;
   margin-left: 2rem;
   transition: color 0.2s;
 }
 
 nav a:hover {
-  color: #3a3530;
+  color: #000000;
 }
 
 /* MAIN CONTENT */
