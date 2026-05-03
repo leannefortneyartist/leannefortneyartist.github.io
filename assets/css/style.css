@@ -73,16 +73,9 @@ main p.bio {
 }
 
 /* FOOTER */
-footer {
-  background: #ffffff;
-  border-top: 1px solid #e0d9d3;
-  padding: 2rem;
-  text-align: center;
-}
-
 footer .copy {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.55rem;
+  font-size: 0.45rem !important;
   letter-spacing: 0.08em;
   color: #b0a49a;
   margin-top: 1rem;
