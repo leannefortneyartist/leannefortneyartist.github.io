@@ -6,7 +6,7 @@ weight: 2
 
 Bring Leanne's artwork into your home with high-quality art prints. Available in a variety of sizes to suit any space.
 
-![Leanne Fortney Prints](/images/logo/duoface.png)
+![Leanne Fortney Prints](/images/prints.png)
 
 # Art Prints
 
