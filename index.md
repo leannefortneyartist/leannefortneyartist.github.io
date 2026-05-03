@@ -1,13 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: Leanne Fortney
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+description: Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.
+intro_image: "images/logo/duoface.png"
+intro_image_absolute: false
+intro_image_hide_on_mobile: false
 show_call_box: true
 ---
+# Artist & Creative Arts Coach
 
-# Serif - A Jekyll Business Theme.
-
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Artist & creative arts coach, Leanne Fortney, helps creative individuals reconnect with their voice, overcome blocks, and find their natural creative flow.
