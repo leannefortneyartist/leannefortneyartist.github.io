@@ -36,6 +36,8 @@ defaults:
 sass:
   style: compressed
 plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
   - jekyll-environment-variables
 exclude:
   - Gemfile
