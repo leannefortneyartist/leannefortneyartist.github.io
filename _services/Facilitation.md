@@ -6,7 +6,7 @@ weight: 3
 
 Facilitation for Creativity & Innovation
 
-![Facilitation Services](duoface.png)
+![Facilitation Services](creativeflow.jpg)
 
 # Facilitation Services
 
