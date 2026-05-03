@@ -10,21 +10,24 @@ I'm Leanne Fortney — artist and innovation facilitator helping creative indivi
 
 ## Upcoming Exhibits & Workshops
 
-<small>
-
-**Women Artists of the DMV: The Thank You Show**
-June 20 – October 18, 2026
+<p style="font-size: 0.85em;">
+<strong>Women Artists of the DMV: The Thank You Show</strong><br>
+June 20 – October 18, 2026<br>
 BlackRock Center for the Arts, Germantown, Maryland
+</p>
 
-**May Open 2026 Exhibit**
-May 6 – June 7, 2026
+<p style="font-size: 0.85em;">
+<strong>May Open 2026 Exhibit</strong><br>
+May 6 – June 7, 2026<br>
 The Art League, Alexandria, Virginia
+</p>
 
-**2026 National Juried Exhibition**
-May 2 – July 12, 2026
+<p style="font-size: 0.85em;">
+<strong>2026 National Juried Exhibition</strong><br>
+May 2 – July 12, 2026<br>
 The Delaplaine Arts Center, Frederick, Maryland
+</p>
 
-</small>
 
 ---
 
