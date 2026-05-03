@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Welcome"
+title: "Hello!"
 ---
 
 I'm Leanne Fortney — artist and innovation facilitator helping creative individuals and teams reconnect with their voice, overcome blocks, and find their natural creative flow.
