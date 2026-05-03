@@ -1,9 +1,8 @@
 ---
 layout: single
 author_profile: true
+title: "Welcome"
 ---
-
-## Welcome
 
 I'm Leanne Fortney — Artist & Innovation Facilitator supporting individuals and teams in transforming challenges into fresh ideas and real-world solutions.
 
