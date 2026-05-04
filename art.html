@@ -64,18 +64,61 @@
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: rgba(0,0,0,0.85);
+      background: rgba(0,0,0,0.9);
       z-index: 1000;
       align-items: center;
       justify-content: center;
+      gap: 3rem;
+      padding: 2rem;
     }
     .lightbox.active {
       display: flex;
     }
     .lightbox img {
-      max-width: 90%;
-      max-height: 90vh;
+      max-width: 50%;
+      max-height: 85vh;
       object-fit: contain;
+    }
+    .lightbox-info {
+      max-width: 320px;
+      color: #ffffff;
+    }
+    .lightbox-title {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 300;
+      font-size: 1.3rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.3rem;
+    }
+    .lightbox-meta {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: #c4b8ae;
+      margin-bottom: 0.3rem;
+      line-height: 1.6;
+    }
+    .lightbox-price {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 200;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #c4b8ae;
+      margin-bottom: 1.2rem;
+    }
+    .lightbox-divider {
+      width: 40px;
+      height: 1px;
+      background: #c4b8ae;
+      margin-bottom: 1.2rem;
+    }
+    .lightbox-description {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 300;
+      color: #e0d9d3;
+      line-height: 1.8;
     }
     .lightbox-close {
       position: absolute;
@@ -120,37 +163,9 @@
     <p class="series-description">This series explores embodied sovereignty, the quiet authority that arises when a woman is fully grounded in herself. These figures are not posed for admiration or defined by ornament, status, or narrative. Their stillness carries intention; their gaze suggests awareness rather than performance. Objects like pearls, a crown, or a glass of whiskey function as subtle extensions of presence, not symbols of dependence or allure. Moving between interior space and abstraction, the paintings resist romanticization and reject idealized femininity. Instead, they present women who are self-possessed, observant, and prepared. Not waiting to be chosen, but fully owning themselves and the space they occupy.</p>
 
     <div class="gallery-grid">
-      <img src="images/DotsandChucks.jpg" alt="Dots and Chucks" onclick="openLightbox(this.src)"/>
-      <img src="images/EdgeofLimerence.jpg" alt="Edge of Limerence" onclick="openLightbox(this.src)"/>
-      <img src="images/SovereignTruth.JPG" alt="Sovereign Truth" onclick="openLightbox(this.src)"/>
-      <img src="images/CrownedConception.jpg" alt="Crowned Conception" onclick="openLightbox(this.src)"/>
-      <img src="images/pearlsandwhiskey.png" alt="Pearls and Whiskey" onclick="openLightbox(this.src)"/>
-      <img src="images/TeddyBearPicnic.png" alt="Teddy Bear Picnic" onclick="openLightbox(this.src)"/>
-    </div>
-
-  </div>
-
-  <!-- LIGHTBOX -->
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-    <img id="lightbox-img" src="" alt="Artwork"/>
-  </div>
-
-  <footer>
-    <p style="font-family: 'Open Sans', sans-serif; font-size: 0.7rem; color: #666666; max-width: 900px; margin: 0 auto; line-height: 1.6; text-align: center; padding: 2rem;">
-      &copy; 2026 Leanne Fortney. All Rights Reserved. All content, including artwork, images, text, and design elements, is the intellectual property of Leanne Fortney. Unauthorized reproduction, distribution, or use of any material is prohibited without prior written consent.
-    </p>
-  </footer>
-
-  <script>
-    function openLightbox(src) {
-      document.getElementById('lightbox-img').src = src;
-      document.getElementById('lightbox').classList.add('active');
-    }
-    function closeLightbox() {
-      document.getElementById('lightbox').classList.remove('active');
-    }
-  </script>
-
-</body>
-</html>
+      <img src="images/DotsandChucks.jpg" alt="Dots and Chucks" onclick="openLightbox(
+        'images/DotsandChucks.jpg',
+        'Dots and Chucks, 2026',
+        'Oil on Canvas, 48&quot;x36&quot;',
+        'Inquire for price',
+        'This painting explores quiet psychological presence within an everyday, intentionally minimal space, where the setting becomes more of an emotional container than a literal environment. Built fr
