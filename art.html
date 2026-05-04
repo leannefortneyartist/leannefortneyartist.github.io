@@ -168,4 +168,78 @@
         'Dots and Chucks, 2026',
         'Oil on Canvas, 48&quot;x36&quot;',
         'Inquire for price',
-        'This painting explores quiet psychological presence within an everyday, intentionally minimal space, where the setting becomes more of an emotional container than a literal environment. Built fr
+        'This painting explores quiet psychological presence within an everyday, intentionally minimal space, where the setting becomes more of an emotional container than a literal environment. Built from a warm ochre ground and a limited palette, the work focuses on subtle shifts in value and the tension between structure and softness to convey a moment of stillness, reflection, and inner complexity.'
+      )"/>
+      <img src="images/EdgeofLimerence.jpg" alt="The Edge of Limerence" onclick="openLightbox(
+        'images/EdgeofLimerence.jpg',
+        'The Edge of Limerence, 2026',
+        'Oil on Canvas, 30&quot;x24&quot;',
+        'Inquire for price',
+        'The Edge of Limerence captures the emotional threshold between longing and awareness. The figure leans forward in quiet tension, her steady gaze suggesting desire, uncertainty, and reflection. Subtle gestures and restrained light, the painting holds a moment suspended between feeling and clarity.'
+      )"/>
+      <img src="images/SovereignTruth.JPG" alt="Sovereign Truth" onclick="openLightbox(
+        'images/SovereignTruth.JPG',
+        'Sovereign Truth, 2026',
+        'Oil on Canvas, 30&quot;x24&quot;',
+        'Inquire for price',
+        'Sovereign Truth captures a moment suspended between knowledge and restraint. A composed figure sits in quiet command, her gaze steady, her posture deliberate. She is not reacting, she is discerning. The truth in the room does not need to be spoken to be felt. This work explores the strength required to withhold commentary in a culture that rewards immediacy. It reflects the authority that comes from knowing, and choosing silence. In this stillness, power is not loud; it is sovereign.'
+      )"/>
+      <img src="images/CrownedConception.jpg" alt="Crowned Conception" onclick="openLightbox(
+        'images/CrownedConception.jpg',
+        'Crowned Conception, 2026',
+        'Oil on Canvas, 36&quot;x24&quot;',
+        'Inquire for price',
+        'Crowned Conception honors the sovereignty of thought. The crown signifies internal authority, not status. Composed and self-possessed, the figure embodies strength rooted in conviction, reminding us that true power begins in claiming and shaping one\'s own narrative.'
+      )"/>
+      <img src="images/pearlsandwhiskey.png" alt="Pearls and Whiskey" onclick="openLightbox(
+        'images/pearlsandwhiskey.png',
+        'Pearls and Whiskey, 2026',
+        'Oil on Canvas, 30&quot;x24&quot;',
+        'Inquire for price',
+        'Pearls and Whiskey stages a lone woman in a dim, carefully rendered interior, her pearls and gloves signaling inherited elegance while her gaze drifts past the viewer toward something unspoken. The cool, shadowed palette hints at a world governed by appearances, yet the whiskey glass on the table introduces a subtle friction, an object less about refinement than defiance. She captures the tension between performance and autonomy, a woman who occupies her role with studied poise while quietly resisting the expectations it carries.'
+      )"/>
+      <img src="images/TeddyBearPicnic.png" alt="Teddy Bear Picnic" onclick="openLightbox(
+        'images/TeddyBearPicnic.png',
+        'Teddy Bear Picnic, 2025',
+        'Oil on Canvas, 48&quot;x36&quot;',
+        'Inquire for price',
+        'Teddy Bear Picnic reflects the feeling that life\'s expectations can sometimes feel out of reach. It challenges the prescribed notion of being adult—as if we\'re supposed to instinctively know what that means. We\'re often raised by young adults who are, in many ways, still finding their own way, passing down their limited understanding. As we grow, we spend much of our lives unlearning those errors, longing for the simplicity and freedom of a more carefree time.'
+      )"/>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Artwork"/>
+    <div class="lightbox-info" onclick="event.stopPropagation()">
+      <div class="lightbox-title" id="lightbox-title"></div>
+      <div class="lightbox-meta" id="lightbox-meta"></div>
+      <div class="lightbox-price" id="lightbox-price"></div>
+      <div class="lightbox-divider"></div>
+      <div class="lightbox-description" id="lightbox-description"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p style="font-family: 'Open Sans', sans-serif; font-size: 0.7rem; color: #666666; max-width: 900px; margin: 0 auto; line-height: 1.6; text-align: center; padding: 2rem;">
+      &copy; 2026 Leanne Fortney. All Rights Reserved. All content, including artwork, images, text, and design elements, is the intellectual property of Leanne Fortney. Unauthorized reproduction, distribution, or use of any material is prohibited without prior written consent.
+    </p>
+  </footer>
+
+  <script>
+    function openLightbox(src, title, meta, price, description) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-title').innerHTML = title;
+      document.getElementById('lightbox-meta').innerHTML = meta;
+      document.getElementById('lightbox-price').innerHTML = price;
+      document.getElementById('lightbox-description').innerHTML = description;
+      document.getElementById('lightbox').classList.add('active');
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+    }
+  </script>
+
+</body>
+</html>
