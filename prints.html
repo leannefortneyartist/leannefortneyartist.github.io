@@ -105,27 +105,40 @@
 </head>
 <body>
 
-  <header>
-    <a href="index.html">
-      <img src="images/logo.png" alt="Leanne Fortney" class="logo"/>
-    </a>
-    <nav>
-      <a href="about.html">About</a>
-      <a href="art.html">Art</a>
-      <a href="prints.html">Prints</a>
-      <a href="innovative-facilitation.html">Innovative Facilitation</a>
-      <a href="events.html">Events</a>
+<header>
+  <a href="index.html">
+    <img src="images/logo.png" alt="Leanne Fortney" class="logo"/>
+  </a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav class="nav-menu" id="nav-menu">
+    <a href="about.html">About</a>
+    <a href="art.html">Art</a>
+    <a href="prints.html">Prints</a>
+    <a href="innovative-facilitation.html">Innovative Facilitation</a>
+    <a href="events.html">Events</a>
+    <div class="social-icons">
       <a href="https://www.instagram.com/leannefortney_art" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="height:20px; width:20px; margin-left:1.5rem; vertical-align:middle;"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="height:20px; width:20px; vertical-align:middle;"/>
       </a>
       <a href="https://www.facebook.com/ArtistLeanneFortney" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="height:20px; width:20px; margin-left:0.8rem; vertical-align:middle;"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="height:20px; width:20px; vertical-align:middle;"/>
       </a>
       <a href="https://www.tiktok.com/@leannefortney" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" style="height:20px; width:20px; margin-left:0.8rem; vertical-align:middle;"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" style="height:20px; width:20px; vertical-align:middle;"/>
       </a>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
+<script>
+  document.getElementById('hamburger').addEventListener('click', function() {
+    document.getElementById('nav-menu').classList.toggle('open');
+  });
+</script>
 
   <div class="prints-section">
     <h1 class="page-title">Prints</h1>
@@ -183,5 +196,11 @@
     var $mcj = jQuery.noConflict(true);
   </script>
 
+  <script>
+  document.getElementById('hamburger').addEventListener('click', function() {
+    document.getElementById('nav-menu').classList.toggle('open');
+  });
+</script>
+  
 </body>
 </html>
