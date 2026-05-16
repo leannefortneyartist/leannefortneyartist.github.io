@@ -154,3 +154,16 @@ footer .copy {
     margin-top: 0.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .background-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .background-grid img {
+    max-width: 280px;
+    margin: 0 auto;
+    display: block;
+  }
+}
